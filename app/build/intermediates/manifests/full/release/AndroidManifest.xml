@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.savepassword"
+    android:versionCode="1"
+    android:versionName="2.1" >
+
+    <!--
+    2.1
+    全新版，左侧拉出菜单；
+    导出数据放在SavePassword/Export文件夹下；
+    需要导入的数据放在SavePassword/Import文件夹下，可多份数据同时导入，导入时提示已保存的数据是否覆盖
+    -->
+    <!--
+    2.0
+    采用全新的架构了；
+    增加抽屉事件；
+    增加Fragment显示；
+    -->
+    <!--
+    1.2.2
+    把数据库的表名好列名都用公共静态字符串表示，防止出错
+    更新数据时，不删除，而是使用uodate方法。
+    -->
+    <!--
+    1.2.1
+    1，若查询到，则提示“已查询到”，并显示在密码框
+    2，未查询到，则提示“未查询到”，并清空密码框
+    -->
+    <!--
+    1.2版本，
+    1，使列表元素对齐显示；
+    2，添加密码后输入焦点锁定车号
+    -->
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_large"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.savepassword.LaunchActivity"
+            android:label="查密码" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/csv" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.savepassword.TestActivity"
+            android:label="@string/test_name" >
+        </activity>
+
+        <receiver
+            android:name="com.example.savepassword.MyReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.example.myreceiver.syncdata" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.example.savepassword.ConnectService"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>

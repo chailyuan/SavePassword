@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javacsv">
+    <CLASSES>
+      <root url="jar://E:/AndroidStudioApp/SavePassword/libs/javacsv.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

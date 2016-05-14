@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LaunchActivity" >
+
+   <item
+       android:id="@+id/action_websearch"
+       android:icon="@drawable/ic_action_search"
+       android:title="WebSearch"
+       android:showAsAction="ifRoom|withText"
+       />
+
+</menu>

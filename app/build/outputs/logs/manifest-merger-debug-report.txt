@@ -1,0 +1,117 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:2:1-85:12
+	xmlns:android
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:33:5-35:41
+MERGED from [com.android.support:support-v4:23.2.1] D:\ASProjects\SavePassword\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:35:9-38
+		INJECTED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:34:9-35
+		INJECTED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:37:5-81
+	android:name
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:37:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:38:5-84
+	android:name
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:38:22-81
+uses-permission#android.permission.INTERNET
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:39:5-66
+	android:name
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:39:22-64
+android:uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:41:5-83
+	android:name
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:41:30-80
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:42:5-88
+	android:name
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:42:30-85
+application
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:44:5-83:19
+MERGED from [com.android.support:support-v4:23.2.1] D:\ASProjects\SavePassword\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:47:9-41
+	android:allowBackup
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:45:9-35
+	android:icon
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:46:9-51
+	android:theme
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:48:9-40
+activity#com.example.savepassword.LaunchActivity
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:49:9-64:20
+	android:label
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:51:13-32
+	android:name
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:50:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:52:13-56:29
+action#android.intent.action.MAIN
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:53:17-69
+	android:name
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:53:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:55:17-77
+	android:name
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:55:27-74
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:57:13-63:29
+action#android.intent.action.VIEW
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:58:17-69
+	android:name
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:58:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:60:17-76
+	android:name
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:60:27-73
+data
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:62:17-53
+	android:mimeType
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:62:23-50
+activity#com.example.savepassword.TestActivity
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:65:9-68:20
+	android:label
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:67:13-46
+	android:name
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:66:13-41
+receiver#com.example.savepassword.MyReceiver
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:70:9-77:20
+	android:exported
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:73:13-36
+	android:enabled
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:72:13-35
+	android:name
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:71:13-39
+intent-filter#com.example.myreceiver.syncdata
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:74:13-76:29
+action#com.example.myreceiver.syncdata
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:75:17-74
+	android:name
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:75:25-71
+service#com.example.savepassword.ConnectService
+ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:79:9-82:47
+	android:exported
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:82:13-36
+	android:enabled
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:81:13-35
+	android:name
+		ADDED from D:\ASProjects\SavePassword\app\src\main\AndroidManifest.xml:80:13-43
